@@ -1,0 +1,15 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="Smoke Check Todo App" verbose="1">
+    <test name="Create Todo">
+        <classes>
+            <class name="todo.tests.CreateTodo"/>
+        </classes>
+    </test>
+
+    <test name="Clear Todo">
+        <classes>
+            <class name="todo.tests.ClearComplete"/>
+        </classes>
+    </test>
+</suite>
